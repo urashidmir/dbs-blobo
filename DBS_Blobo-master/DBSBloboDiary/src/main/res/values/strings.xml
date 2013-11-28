@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DBS Blobo Diary</string>
+
+    <!-- Menu Strings -->
+    <string name="menu_connect_blobo">Connect Blobo</string>
+    <string name="menu_show_events">Show Recorded Events</string>
+    <string name="menu_show_time_data">Show Events By Time</string>
+    <string name="menu_show_map">Show Events By Map</string>
+    <string name="menu_reflection">Diary</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="menu_show_map_from_time">Show All On Map</string>
+
+    <!-- DBS URL -->
+    <string name="dbs_url">http://digitalbrainswitch.co.uk/</string>
+
+    <!-- Bluetooth Connection Status -->
+    <string name="bt_status_connected">Blobo Connected</string>
+    <string name="bt_status_not_connected">Not Connected</string>
+
+    <!-- Titles -->
+    <string name="title_activity_show_time_data">Time View</string>
+    <string name="title_activity_about">About DBS</string>
+    <string name="title_device_list">Select a Device to Connect</string>
+    <string name="title_activity_map_list">Pick a Day</string>
+    <string name="title_activity_time_data_list">Pick a Day</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_map">Map View</string>
+
+    <!-- Directories -->
+    <string name="stored_data_directory">/Download/data</string>
+    <string name="stored_diary_directory">/Download/diary</string>
+
+    <!-- About Text -->
+    <string name="text_about">
+        Digital Brain Switch (DBS) is a project funded by the Engineering and Physical Sciences Research Council (EPSRC), which brings together computer science and social science. It is a collaboration between Lancaster University; The Open University; Royal Holloway, University of London; and University of Kent. The project is led by Prof. Jon Whittle from the School of Computing &amp; Communications at Lancaster University.
+        \n\nEmail: DBS-Project@open.ac.uk
+    </string>
+    <string name="text_version">0.1</string>
+
+    <!-- Settings -->
+    <string name="settings_error_title">Settings Error</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">Connecting...</string>
+    <string name="title_connected_to">Connected to </string>
+    <string name="title_not_connected">Not Connected</string>
+    <string name="no_pressure_value">----------------------------</string>
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pin">Pin</string>
+
+    <!-- Shared Preference Keys (for blobo threshold settings) -->
+    <string name="pressure_max">SHARE_PREFERENCES_PRESSURE_MAX</string>
+    <string name="pressure_min">SHARE_PREFERENCES_PRESSURE_MIN</string>
+    <string name="pressure_threshold">SHARE_PREFERENCES_PRESSURE_THRESHOLD</string>
+    <string name="long_squeeze_duration">SHARE_PREFERENCES_LONG_SQUEEZE_DURATION</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="long_squeeze">Long Squeeze</string>
+
+    <!-- ShowTimeDataActivity intent extra -->
+    <string name="showtimedata_point_location_long">SHOWTIMEDATA_POINT_LOCATION_LONG</string>
+    <string name="showtimedata_point_location_lat">SHOWTIMEDATA_POINT_LOCATION_LAT</string>
+
+    <!-- Latitude, longitude format -->
+    <string name="latitude_longitude">%1$.8f, %2$.8f</string>
+
+    <!-- Intent Key Strings -->
+    <string name="intent_extra_selected_file_name">INTENT_EXTRA_SELECTED_FILE_NAME</string>
+    <string name="intent_extra_time_location">INTENT_EXTRA_TIME_LOCATION</string>
+    <string name="intent_extra_number_of_map_points">INTENT_EXTRA_NUMBER_OF_MAP_POINTS</string>
+    <string name="multiple_map_points">MULTIPLE_MAP_POINTS</string>
+    <string name="single_map_point">SINGLE_MAP_POINT</string>
+
+    <string name="intent_extra_diary_entry_date">INTENT_EXTRA_DIARY_DATE</string>
+    <string name="intent_extra_diary_entry_time">INTENT_EXTRA_DIARY_TIME</string>
+    <string name="intent_extra_diary_entry_location">INTENT_EXTRA_DIARY_LOCATION</string>
+    <string name="intent_extra_diary_entry_content">INTENT_EXTRA_DIARY_CONTENT</string>
+    <string name="intent_extra_diary_entry_add_or_update">INTENT_EXTRA_DIARY_ADD_OR_UPDATE</string>
+    <string name="intent_extra_diary_entry_location_latitude">INTENT_EXTRA_DIARY_LOCATION_LATITUDE</string>
+    <string name="intent_extra_diary_entry_location_longitude">INTENT_EXTRA_DIARY_LOCATION_LONGITUDE</string>
+    <string name="intent_extra_diary_entry_created_time">INTENT_EXTRA_DIARY_CREATED_TIME</string>
+    <string name="intent_extra_disable_diary_in_map">INTENT_EXTRA_DISABLE_DIARY_IN_MAP</string>
+
+
+
+    <string name="title_activity_reflection">DBS Diary</string>
+    <string name="title_activity_view_an_event">View An Event Activity</string>
+    <string name="title_activity_calendar_date_picker">Calendar Date Picker</string>
+    <string name="title_activity_show_events">Show Events</string>
+    <string name="title_activity_add_diary_entry">Diary Entry</string>
+
+    <!--Reflection Activity-->
+    <string name="reflection_activity_view_entries">View Recorded Entries</string>
+    <string name="reflection_activity_add_entry">Add A New General Entry</string>
+
+    <!--Add Diary Entry-->
+    <string name="add_diary_date_string">Date:</string>
+    <string name="add_diary_time_string">Time:</string>
+    <string name="add_diary_location_string">Address:</string>
+
+    <string name="diary_data_key_date">DIARY_ENTRY_DATE</string>
+    <string name="diary_data_key_time">DIARY_ENTRY_TIME</string>
+    <string name="diary_data_key_location">DIARY_ENTRY_LOCATION</string>
+    <string name="diary_data_key_location_latitude">DIARY_ENTRY_LOCATION_LAT</string>
+    <string name="diary_data_key_location_longitude">DIARY_ENTRY_LOCATION_LONG</string>
+    <string name="diary_data_key_content">DIARY_ENTRY_CONTENT</string>
+    <string name="diary_data_key_created_time">DIARY_ENTRY_CREATED_TIME</string>
+    <string name="diary_data_key_last_updated_time">DIARY_ENTRY_LAST_UPDATED_TIME</string>
+
+    <string name="diary_button_add_string">Add Diary Entry</string>
+    <string name="diary_button_update_string">Update Diary Entry</string>
+
+    <string name="diary_empty_alert_title">Cannot Save Diary Entry</string>
+    <string name="diary_empty_alert_message">Content of a diary cannot be empty. Please enter content.</string>
+    <string name="diary_entry_empty_location_general_entry">General Entry - No Event Location.</string>
+    <string name="diary_entry_empty_latitude">NO_LATITUDE</string>
+    <string name="diary_entry_empty_longitude">NO_LONGITUDE</string>
+</resources>
